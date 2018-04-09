@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="user.js"></script>
+    <title>Rest Client</title>
+</head>
+
+<body>
+    <h1>User Data</h1>
+    <h2>Users</h2>
+    <button onclick="GetUsers()">Get All Users</button>
+    <button onclick="NamesEmails()">Show name and email</button>
+    <h2>Add User</h2>
+    <form id='UserForm'>
+        <label for="">ID</label>
+        <br>
+        <input type="number" name="id" id="">
+        <br>
+
+        <label for="">name</label>
+        <br>
+        <input type="text" name="name" id="">
+        <br>
+
+        <label for="">email</label>
+        <br>
+        <input type="text" name="email" id="">
+        <br>
+
+        <label for="">fact</label>
+        <br>
+        <input type="text" name="fact" id="">
+        <br>
+    </form>
+    <button onclick="AddUser()">Add User</button>
+    <div id='results'></div>
+</body>
+
+</html>
